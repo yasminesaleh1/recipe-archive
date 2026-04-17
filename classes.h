@@ -19,11 +19,12 @@ class recipe {
         int editRecipe();
 
 
-    private:
-        int servings;    
+    private:  // may switch to protected
         string difficulty;   // how difficult is it to make
-        bool haveTried;   // have I tried the recipe?
+        bool haveTried;   // have I tried the recipe?  True = Yes   No = False
         string opinion;   // my opinion on the recipe 
-        string steps;   // the recipe steps
+        string category;  // breakfast, lunch, dessert, beverage, etc
+        string link;  // link to the recipe
+
 
 }; 
